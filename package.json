@@ -1,0 +1,16 @@
+{
+  "name": "lol-bets-chat-endpoint",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc --noEmit",
+    "start": "vercel dev"
+  }
+}
